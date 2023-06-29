@@ -1,0 +1,30 @@
+{
+  "name": "multipart_s3_upload",
+  "version": "0.1.0",
+  "bin": {
+    "multipart_s3_upload": "bin/multipart_s3_upload.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/node": "18.15.11",
+    "@types/prettier": "2.7.2",
+    "aws-cdk": "2.73.0",
+    "jest": "29.5.0",
+    "ts-jest": "29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.309.0",
+    "@aws-sdk/s3-request-presigner": "3.309.0",
+    "aws-cdk-lib": "2.80.0",
+    "constructs": "10.1.305",
+    "lodash": "4.17.21"
+  }
+}
